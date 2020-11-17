@@ -5,12 +5,12 @@ const Wine = (props) => {
   const myStyle = {
     padding: '15px',
     margin: '15px',
-    border: '1px solid',
+    border: '2px solid',
   };
   return (
     <div style={myStyle}>
       {' '}
-      Wine {props.name || 'unknown'}, Type: {props.colour}{' '}
+      Wine {props.name || 'unknown'}, Variety: {props.variety}, {props.colour}{''}
     </div>
   );
 };

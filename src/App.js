@@ -1,12 +1,14 @@
-import logo from "./logo.svg";
-import "./App.css";
-import WineList from "./components/WineList";
+import logo from './logo.svg';
+import './App.css';
+
+import WinesManager from './components/winesManager'
+import Header from './components/Header'
 
 function App() {
   return (
     <div className='App'>
-      <header className='App-header'>Wine App</header>
-      <WineList />
+      <Header />
+      <WinesManager />
     </div>
   );
 }
